@@ -1,6 +1,6 @@
 ﻿using DataAccess.Interface;
+using MovieAPI.DBContext;
 using MovieAPI.DTO.Request;
-using MovieAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

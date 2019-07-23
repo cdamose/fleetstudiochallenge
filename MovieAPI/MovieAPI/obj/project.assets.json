@@ -12528,11 +12528,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amosecd\\source\\repos\\MovieAPI\\MovieAPI\\MovieAPI.csproj",
+      "projectUniqueName": "E:\\github\\fleetstudiochallenge\\MovieAPI\\MovieAPI\\MovieAPI.csproj",
       "projectName": "MovieAPI",
-      "projectPath": "C:\\Users\\amosecd\\source\\repos\\MovieAPI\\MovieAPI\\MovieAPI.csproj",
+      "projectPath": "E:\\github\\fleetstudiochallenge\\MovieAPI\\MovieAPI\\MovieAPI.csproj",
       "packagesPath": "C:\\Users\\amosecd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amosecd\\source\\repos\\MovieAPI\\MovieAPI\\obj\\",
+      "outputPath": "E:\\github\\fleetstudiochallenge\\MovieAPI\\MovieAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

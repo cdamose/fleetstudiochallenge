@@ -12,3 +12,17 @@ C:\Users\amosecd\source\repos\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI
 C:\Users\amosecd\source\repos\MovieAPI\MovieAPI\bin\Debug\netcoreapp2.1\MovieAPI.pdb
 C:\Users\amosecd\source\repos\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.dll
 C:\Users\amosecd\source\repos\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.pdb
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\bin\Debug\netcoreapp2.1\MovieAPI.deps.json
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\bin\Debug\netcoreapp2.1\MovieAPI.runtimeconfig.json
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\bin\Debug\netcoreapp2.1\MovieAPI.runtimeconfig.dev.json
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\bin\Debug\netcoreapp2.1\MovieAPI.dll
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\bin\Debug\netcoreapp2.1\MovieAPI.pdb
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.csprojAssemblyReference.cache
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.csproj.CoreCompileInputs.cache
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.RazorAssemblyInfo.cache
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.RazorAssemblyInfo.cs
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.AssemblyInfoInputs.cache
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.AssemblyInfo.cs
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.RazorTargetAssemblyInfo.cache
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.dll
+E:\github\fleetstudiochallenge\MovieAPI\MovieAPI\obj\Debug\netcoreapp2.1\MovieAPI.pdb

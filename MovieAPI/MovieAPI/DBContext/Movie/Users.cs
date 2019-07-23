@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MovieAPI.Models
+namespace MovieAPI.DBContext
 {
     public partial class Users
     {

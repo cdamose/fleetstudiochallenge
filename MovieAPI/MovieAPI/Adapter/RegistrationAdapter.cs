@@ -3,7 +3,7 @@ using MovieAPI.Adapter.Interface;
 using MovieAPI.DataAccess;
 using MovieAPI.DTO.Request;
 using MovieAPI.DTO.Response;
-using MovieAPI.Models;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
