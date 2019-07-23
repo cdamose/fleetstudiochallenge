@@ -1,4 +1,5 @@
-﻿using MovieAPI.DTO.Request;
+﻿using MovieAPI.DBContext;
+using MovieAPI.DTO.Request;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ namespace DataAccess.Interface
 {
    public interface IUser
     {
+        Users GetUsers(string username);
         bool SaveCustomer(Customer req);
     }
 }

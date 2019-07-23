@@ -1,6 +1,8 @@
 ﻿using MovieAPI.Adapter.Interface;
 using MovieAPI.DataAccess;
 using MovieAPI.DataAccess.Interface;
+using MovieAPI.DTO.Request;
+using MovieAPI.DTO.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +12,9 @@ namespace MovieAPI.Adapter
 {
     public class TokenAdapter : IValidateToken
     {
+
+
+
         public bool CheckValidToken(string customerID,string Token)
         {
             IUsersToken tokenValidator = new UsersToken();
@@ -29,6 +34,18 @@ namespace MovieAPI.Adapter
             }
 
 
+        }
+
+        public Token GenerateToken(TokenRequest request)
+        {
+            try
+            {
+
+            }
+            catch(Exception e)
+            {
+                return null;
+            }
         }
     }
 }

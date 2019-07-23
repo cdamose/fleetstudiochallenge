@@ -10,6 +10,19 @@ namespace MovieAPI.DataAccess
 {
     public class User : IUser
     {
+        public Users GetUsers(string username)
+        {
+            try
+            {
+                MovieDBContext db = new MovieDBContext();
+                return db.Users.Where(o => o.Mobile == username || o.Email == username).Select(o => o).First();
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
+
         public bool SaveCustomer(Customer req)
         {
             try
