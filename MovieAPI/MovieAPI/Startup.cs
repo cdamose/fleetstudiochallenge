@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using MovieAPI.Service;
+using MovieAPI.Service.Interface;
 
 namespace MovieAPI
 {
@@ -29,9 +31,12 @@ namespace MovieAPI
             app.Use(async (context, next) =>
             {
                 var token = context.Request.Headers["token"].ToString();
-                if (!validateToken(token))
+                var customerid = context.Request.Headers["customer_id"].ToString();
+                ITokenService service = new TokenService();
+                if (!service.ValidateToken (customerid,token))
                 {
-                    await context.Response.WriteAsync("Invalid token");
+                    context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                    await HttpResponseWritingExtensions.WriteAsync(context.Response, "UnAuthorized Access Found..!");
                 }
                 else
                 {
@@ -41,7 +46,7 @@ namespace MovieAPI
 
             app.UseMvc();
         }
-        bool validateToken(string token)
+        bool validateToken(string token,string customerid)
         {
             //validation will add here 
             if (token.Length > 0)

@@ -7,6 +7,6 @@ namespace MovieAPI.Adapter.Interface
 {
     public interface IValidateToken
     {
-        bool CheckValidToken(string customerID);
+        bool CheckValidToken(string customerID,string Token);
     }
 }

@@ -9,10 +9,10 @@ namespace MovieAPI.DataAccess
 {
     public class UsersToken : IUsersToken
     {
-        public DBContext.UsersToken GetUsersToken(string CustomerID)
+        public DBContext.UsersToken GetUsersToken(string CustomerID,string token)
         {
             IDDBContext db = new IDDBContext();
-            return db.UsersToken.Where(o => o.UserId == CustomerID).Select(o => o).Single();
+            return db.UsersToken.Where(o => o.UserId == CustomerID && o.AccessToken==token).Select(o => o).SingleOrDefault();
 
         }
     }

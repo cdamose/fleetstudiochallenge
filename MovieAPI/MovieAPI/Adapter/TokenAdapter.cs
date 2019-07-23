@@ -10,10 +10,10 @@ namespace MovieAPI.Adapter
 {
     public class TokenAdapter : IValidateToken
     {
-        public bool CheckValidToken(string customerID)
+        public bool CheckValidToken(string customerID,string Token)
         {
             IUsersToken tokenValidator = new UsersToken();
-            var tokenObj= tokenValidator.GetUsersToken(customerID);
+            var tokenObj= tokenValidator.GetUsersToken(customerID,Token);
             if (tokenObj == null)
             {
                 return false;

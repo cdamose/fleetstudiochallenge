@@ -7,6 +7,6 @@ namespace MovieAPI.DataAccess.Interface
 {
     public interface IUsersToken
     {
-        MovieAPI.DBContext.UsersToken GetUsersToken(string CustomerID);
+        MovieAPI.DBContext.UsersToken GetUsersToken(string CustomerID,string Token);
     }
 }
