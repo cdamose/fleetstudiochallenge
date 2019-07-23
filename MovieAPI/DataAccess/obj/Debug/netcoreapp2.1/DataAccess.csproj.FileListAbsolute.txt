@@ -1,0 +1,5 @@
+C:\Users\amosecd\source\repos\MovieAPI\DataAccess\bin\Debug\netcoreapp2.1\DataAccess.deps.json
+C:\Users\amosecd\source\repos\MovieAPI\DataAccess\bin\Debug\netcoreapp2.1\DataAccess.dll
+C:\Users\amosecd\source\repos\MovieAPI\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\amosecd\source\repos\MovieAPI\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\amosecd\source\repos\MovieAPI\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.AssemblyInfo.cs

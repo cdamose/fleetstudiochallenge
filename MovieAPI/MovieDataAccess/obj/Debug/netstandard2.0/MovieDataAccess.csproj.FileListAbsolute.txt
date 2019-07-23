@@ -1,0 +1,9 @@
+C:\Users\amosecd\source\repos\MovieAPI\MovieDataAccess\bin\Debug\netstandard2.0\MovieDataAccess.deps.json
+C:\Users\amosecd\source\repos\MovieAPI\MovieDataAccess\bin\Debug\netstandard2.0\MovieDataAccess.dll
+C:\Users\amosecd\source\repos\MovieAPI\MovieDataAccess\obj\Debug\netstandard2.0\MovieDataAccess.csprojAssemblyReference.cache
+C:\Users\amosecd\source\repos\MovieAPI\MovieDataAccess\obj\Debug\netstandard2.0\MovieDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\amosecd\source\repos\MovieAPI\MovieDataAccess\obj\Debug\netstandard2.0\MovieDataAccess.AssemblyInfoInputs.cache
+C:\Users\amosecd\source\repos\MovieAPI\MovieDataAccess\obj\Debug\netstandard2.0\MovieDataAccess.AssemblyInfo.cs
+C:\Users\amosecd\source\repos\MovieAPI\MovieDataAccess\bin\Debug\netstandard2.0\MovieDataAccess.pdb
+C:\Users\amosecd\source\repos\MovieAPI\MovieDataAccess\obj\Debug\netstandard2.0\MovieDataAccess.dll
+C:\Users\amosecd\source\repos\MovieAPI\MovieDataAccess\obj\Debug\netstandard2.0\MovieDataAccess.pdb
